@@ -1,0 +1,31 @@
+/* Coty McKinney SEI Assignment part 3 CSS file (About Me)*/
+
+	body {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/louisvilleSkyline.jpg');
+		background-size: cover;
+		background-position: center;
+		color: rgba(40,160,255,.98);
+		font-family: 'Wendy One', sans-serif;
+	}
+
+	.center-text {
+	text-align: center;
+	position: relative;
+	}
+
+	#aboutMePic {
+		background-image: url('../assets/websitePicFd.PNG');
+		height: 268px;
+		width: 256px;
+		background-repeat: no-repeat;
+		background-position: center;
+		float: right;
+	}
+
+	#aboutMe p {
+		font-size: 16px;
+	}
+
+	#contact a{
+		color: rgba(100,200,100,1);
+	}
